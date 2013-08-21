@@ -421,3 +421,12 @@ footer .circ a:hover{
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+.ikestrom {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.ikestrom i {
+  font-size: 13px;
+}
