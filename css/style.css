@@ -366,7 +366,7 @@ blockquote small {
 }
 
 @media (max-width: 767px) {
-  #contact i {
+  #contact i.icon-4x {
     font-size: 3em;
   }
   #contact .circ {
