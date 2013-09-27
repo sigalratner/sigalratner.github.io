@@ -250,10 +250,10 @@ blockquote small {
 
 @media (max-width: 979px) {
   #home h1 {
-    font-size: 36px;
+    font-size: 28px;
   }
   #home h2 {
-    font-size: 26px;
+    font-size: 22px;
   }
   #home {
     min-height: auto;
