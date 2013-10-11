@@ -27,6 +27,13 @@ $(document).ready(function() {
     }
   ]);
   ssm.ready();
+  
+  $('.quote-fader li:gt(0)').hide();
+  setInterval(function(){
+    $('.quote-fader li:first-child').fadeOut(1000)
+      .next('li').fadeIn(1000)
+      .end().appendTo('.quote-fader');}, 
+    12000);
 });
 
 
