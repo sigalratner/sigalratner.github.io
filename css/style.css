@@ -246,18 +246,19 @@ blockquote small {
 #home h2 {
   font-size: 32px;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 #home .page-header {
   padding-top: 30px;
 }
 
-#home .quote-fader {
+.quote-fader {
   position: relative;
+  min-height: 193px;
 }
 
-#home .quote-fader li {
+.quote-fader li {
   position: absolute;
   top: 0;
   left: 0;
@@ -279,21 +280,13 @@ blockquote small {
   font-style: italic;
 }
 
-.book-cover-portrait {
-  background-image: url(../img/64-cover-portrait.jpg);
-  background-repeat: no-repeat;
-  background-position: 15px 30px;
-  background-size: 78%;
-  min-height: 580px;
-}
-
 @media (max-width: 1199px) {
   #home h1 {
     font-size: 44px;
   }
   #home h2 {
     font-size: 32px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
   #home {
     min-height: auto;
@@ -301,9 +294,8 @@ blockquote small {
   #home .lead{
     font-size: 18px;
   }
-  .book-cover-portrait {
-    background-size: 80%;
-    min-height: 570px;
+  .quote-fader {
+    min-height: 204px;
   }
 }
 
@@ -313,7 +305,7 @@ blockquote small {
   }
   #home h2 {
     font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
   #home {
     min-height: auto;
@@ -338,9 +330,8 @@ blockquote small {
     font-size: 11px;
     font-style: italic;
   }
-  .book-cover-portrait {
-    background-size: 94%;
-    min-height: 590px;
+  .quote-fader {
+    min-height: 175px;
   }
 }
 
@@ -351,13 +342,16 @@ blockquote small {
     text-align: center;
   }
   #home h2 {
-    margin-bottom: 4px;
     font-size: 20px;
     text-align: center;
+    margin-bottom: 20px;
   }
   #home .lead{
     font-size: 16px;
     text-align: center;
+  }
+  .quote-fader {
+    min-height: 100px;
   }
 }
 
