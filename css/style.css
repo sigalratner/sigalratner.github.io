@@ -416,6 +416,10 @@ blockquote small {
   background: #733953;
 }
 
+#news .media:first-child {
+  margin-top: 15px;
+}
+
 #calendar {
   background: #993F2D;
 }
