@@ -146,6 +146,12 @@ blockquote small {
   color: #fff;
 }
 
+/* ===== tweaks ===== */
+
+.fb-follow span {
+    vertical-align: baseline !important;
+}
+
 /* ===== nav ===== */
 
 .navbar-header {
