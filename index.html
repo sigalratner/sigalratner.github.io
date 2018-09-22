@@ -47,22 +47,15 @@
   </head>
 
   <body data-spy="scroll" data-target="#nav">
+    <div id="fb-root"></div>
     <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '1447739648807701',
-          xfbml      : true,
-          version    : 'v2.0'
-        });
-      };
-
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "http://connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=246484395411287&autoLogAppEvents=1';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
     </script>
     <script>
       !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
@@ -144,7 +137,7 @@
             <div class="row text-center">
               <div class="m-nopad col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-5">
                 <a href="https://twitter.com/sigalratner" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow</a>
-                <div class="fb-follow" data-href="https://www.facebook.com/SigalRatnerArias" data-colorscheme="light" data-layout="button" data-show-faces="false" style="vertical-align:top;zoom:1;*display:inline"></div>
+                <div class="fb-like" data-href="https://www.facebook.com/SigalRatnerArias" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
               </div>
               <div class="m-nopad col-sm-6 col-md-4 col-lg-3">
                 <div class="panel panel-default buy-sidebar">
