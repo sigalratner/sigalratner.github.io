@@ -414,6 +414,43 @@ blockquote small {
   background: #295D66;
 }
 
+#podcast {
+  background: #252b35;
+}
+
+#podcast i.fa-4x {
+  font-size: 1em;
+}
+
+@media (max-width: 1199px) {
+  #podcast h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+  #podcast {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  #podcast h2 {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+  #podcast {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  #podcast h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 10px;
+  }
+}
+
 #reviews {
   background: #284073;
 }
